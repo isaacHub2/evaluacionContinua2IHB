@@ -14,7 +14,10 @@ public class MainActivity extends AppCompatActivity implements NavigationHost{
         setContentView(R.layout.activity_main);
 
         if (savedInstanceState == null){
-            getSupportFragmentManager().beginTransaction().add(R.id.container, new LoginFragment()).commit();
+            getSupportFragmentManager()
+                    .beginTransaction()
+                    .add(R.id.container, new LoginFragment())
+                    .commit();
         }
     }
 
@@ -25,5 +28,7 @@ public class MainActivity extends AppCompatActivity implements NavigationHost{
         if (addToBackStack){
             transaction.addToBackStack(null);
         }
+
+        transaction.commit();
     }
 }

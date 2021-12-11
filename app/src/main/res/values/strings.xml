@@ -1,9 +1,12 @@
 <resources>
     <string name="app_name">tovel</string>
-    <string name="text_login">Inicia nuevos viajes, descubre nuevos horizontes, explora nuevos lugares con TRAVEL</string>
+    <string name="text_login">Inicia nuevos viajes, descubre nuevos horizontes, explora nuevos lugares con Tovel</string>
     <string name="login_username">Usuario</string>
     <string name="login_password">Contraseña</string>
     <string name="login_button">Iniciar Sesion</string>
     <string name="login_cancel_button">Cancelar</string>
     <string name="text_login_2">Inicio de Sesión:</string>
+    <string name="login_error">La contraseña no debe tener menos de 5 caracteres</string>
+    <string name="location_tittle">Nombre del Lugar</string>
+    <string name="location_country">Pais</string>
 </resources>

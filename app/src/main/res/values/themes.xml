@@ -18,6 +18,9 @@
         <item name="android:background">@color/blue_400</item>
         <item name="android:theme">@style/Theme.Ec2isaac</item>
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
     </style>
 
     <style name="TextAppearance.Ec2isaac.TextInputLayout.HintText" parent="TextAppearance.MaterialComponents.Subtitle2">
